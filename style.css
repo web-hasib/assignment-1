@@ -179,6 +179,64 @@
     
 }
 /* news section closed  */
+/* Donate section  */
+#donate{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#donate .donate-title{
+    font-size: 40px;
+    padding: 30px 0px;
+    color: rgb(14, 14, 14);
+    font-weight: 700;
+}
+#donate .donate-description{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    padding-bottom: 50px;
+}
+#donate .donate-tk{
+    display: flex;
+    justify-content: space-evenly; 
+}
+#tk-box{
+    width: 500px;
+    text-align: center;
+    padding: 30px 230px;
+    background-color:rgba(243, 243, 243, 0.659);
+    margin-top: 50px;
+    border: 1px solid rgba(251, 249, 249, 0.081);
+    font-size: 23px;
+    border-radius: 10px;
+}
+#donate .tk-x{
+    /* border: .1px solid black; */
+    padding: 40px 60px;
+    border-radius: 15px;
+    font-size: 40px;
+    color: rgba(14, 14, 14, 0.8);
+    font-weight: 800;
+    background-color:rgba(243, 243, 243, 0.659) ;
+}
+#donate .donate-btn{
+    padding: 16px 60px;
+    font-size: 19px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+#donate .tk-2{
+    padding: 40px 60px;
+    border-radius: 15px;
+    font-size: 40px;
+    color: rgba(14, 14, 14, 0.8);
+    font-weight: 800;
+    background-color: rgb(198, 228, 214);
+}
+/* donate section closed  */
+
 
 
 
