@@ -183,14 +183,14 @@
 #donate{
     width: 80%;
     margin: 0 auto;
+    padding: 40px 30px;
     text-align: center;
 }
-
 #donate .donate-title{
     font-size: 40px;
-    padding: 30px 0px;
     color: rgb(14, 14, 14);
-    font-weight: 700;
+    padding-bottom: 40px;
+    padding-top: 30px;
 }
 #donate .donate-description{
     font-size: 16px;
@@ -199,44 +199,58 @@
 }
 #donate .donate-tk{
     display: flex;
-    justify-content: space-evenly; 
-}
-#tk-box{
-    width: 500px;
-    text-align: center;
-    padding: 30px 230px;
-    background-color:rgba(243, 243, 243, 0.659);
-    margin-top: 50px;
-    border: 1px solid rgba(251, 249, 249, 0.081);
-    font-size: 23px;
-    border-radius: 10px;
+    justify-content: space-evenly;
+
 }
 #donate .tk-x{
-    /* border: .1px solid black; */
-    padding: 40px 60px;
+    width: 200px;
+    height: 30px;
+    padding: 60px;
+    text-align: center;
+    /* border: 1px solid black; */
     border-radius: 15px;
-    font-size: 40px;
+    margin-bottom: 40px;
+    font-size: 43px;
+    font-weight: 700;
     color: rgba(14, 14, 14, 0.8);
-    font-weight: 800;
+    padding-bottom: 70px;
+    background-color: rgba(243, 243, 243, 0.659);
+}
+#donate .tk-2{
+    width: 200px;
+    height: 30px;
+    padding: 60px;
+    text-align: center;
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    margin-bottom: 40px;
+    font-size: 43px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+    padding-bottom: 70px;
+    background-color: rgb(198, 228, 214);
+}
+#donate #tk-box{
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px 30px;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 15px;
+    border: none;
     background-color:rgba(243, 243, 243, 0.659) ;
+    font-size: 20px;
+   
 }
 #donate .donate-btn{
     padding: 16px 60px;
     font-size: 19px;
     border-radius: 12px;
     margin-bottom: 30px;
-    margin-top: 60px;
+    margin-top: 40px;
 }
-#donate .tk-2{
-    padding: 40px 60px;
-    border-radius: 15px;
-    font-size: 40px;
-    color: rgba(14, 14, 14, 0.8);
-    font-weight: 800;
-    background-color: rgb(198, 228, 214);
-}
-/* donate section closed  */
 
+/* Donate section closed  */
 
 
 
