@@ -287,7 +287,58 @@
     color: rgba(14, 14, 14, 0.6);
 }
 /* quote section closed  */
+/* newsleter section  */
+#newsletter{
+    width: 79%;
+    margin: 0 auto;
+    padding: 60px 2px;
+    text-align: center;
+    background-color: rgb(198, 228, 214);
+    border-radius: 15px;
+    margin-bottom: 50px;
+    margin-top: 80px;
+}
+#newsletter .nl-title{
+    font-size: 45px;
+    font-weight: 700;
+    color: rgb(14, 14, 14);
+    padding-bottom: 25px;
+}
+#newsletter .nl-description{
+    font-size: 18px;
+    color: rgba(14, 14, 14, 0.579);
+    padding-bottom: 20px;
+}
+#newsletter .nl-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* align-content: center; */
+    
+}
+#newsletter #nl-box{
+    width: 550px;
+    height: 20px;
+    padding: 18px 25px;
+    font-size: 18px;
+    color: rgba(14, 14, 14, 0.3);
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+    margin-top: 30px;
+}
+#newsletter .nl-btn{
+    border-radius: 0px 10px 10px 0px;
+    padding: 18px 25px;
+}
 
+
+#newsletter .spam{
+    font-size: 19px;
+    color: rgba(14, 14, 14, 0.472);
+    padding-top: 30px;
+}
+
+/* newsletter section closed  */
 
 
 
