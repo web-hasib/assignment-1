@@ -251,7 +251,42 @@
 }
 
 /* Donate section closed  */
-
+/* Quote section  */
+#quote{
+    width: 76%;
+    margin: 0 auto;
+    padding: 35px 40px;
+    text-align:start;
+    /* border: 1px solid rgb(0, 0, 0); */
+    border-radius: 17px;
+    background-color: rgba(243, 243, 243, 0.659);
+    /* background-image: url("assets/quote-bg.png");
+    background-position: top left padding:0px 30px;
+    background-repeat: no-repeat; */
+    margin-bottom: 40px;
+}
+#quote .quote-container{
+    background-image: url("assets/quote-bg.png");
+    background-position: top left padding:0px 30px;
+    background-repeat: no-repeat;
+}
+#quote .quote-speech{
+    padding-top: 30px;
+    font-size: 19px;
+    color: rgba(14, 14, 14, 0.8);
+    padding-bottom: 20px;
+}
+#quote .person{
+    font-size: 24px;
+    font-weight: 600;
+    color: rgba(14, 14, 14, 0.8);
+    padding-bottom: 10px;
+}
+#quote .person-description{
+    font-size: 18px;
+    color: rgba(14, 14, 14, 0.6);
+}
+/* quote section closed  */
 
 
 
